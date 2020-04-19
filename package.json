@@ -1,0 +1,34 @@
+{
+  "name": "mall-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangjiehai/mall-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangjiehai/mall-server/issues"
+  },
+  "homepage": "https://github.com/huangjiehai/mall-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^8.0.8",
+    "mongoose": "^5.9.9",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.0.0"
+  }
+}
